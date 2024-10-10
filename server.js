@@ -140,7 +140,7 @@
 const express = require("express");
 const cors = require("cors");
 const multer = require("multer");
-const db = require("./backend/config/db"); // Ensure the path to your db.js is correct
+const db = require("./backend/config/db");
 const path = require("path");
 
 const app = express();
